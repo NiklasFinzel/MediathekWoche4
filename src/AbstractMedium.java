@@ -27,7 +27,11 @@ public abstract class AbstractMedium implements Medium
      * 
      * @ensure result != null
      */
-    public abstract String getFormatiertenString();
+    public String getFormatiertenString()
+    {
+        return getMedienBezeichnung() + ":\n" + "    " + "Titel: " + _titel
+                + "\n" + "    " + "Kommentar: " + _kommentar + "\n";
+    }
 
     /**
      * Gibt den Kommentar zu diesem Medium zurück.
@@ -88,5 +92,7 @@ public abstract class AbstractMedium implements Medium
         assert titel != null : "Vorbedingung verletzt: titel != null";
         _titel = titel;
     }
+    
+
 
 }

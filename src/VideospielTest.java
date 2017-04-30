@@ -54,5 +54,17 @@ public class VideospielTest
         medium.setTitel("Titel2");
         assertEquals(medium.getTitel(), "Titel2");
     }
+    
+    @Test
+    public final void testKeineMiettage()
+    {
+    	assertEquals(_videoSpiel.berechneMietgebuehr(1),new Geldbetrag(200));
+    }
+    
+    @Test
+    public final void testDreiMiettage()
+    {
+    	assertEquals(_videoSpiel.berechneMietgebuehr(3),new Geldbetrag(200));
+    }
 
 }

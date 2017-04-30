@@ -76,5 +76,17 @@ public class DVDTest
     {
         return new DVD(TITEL, KOMMENTAR, REGISSEUR, LAENGE);
     }
+    
+    @Test
+    public final void testKeineMiettage()
+    {
+    	assertEquals(_dvd1.berechneMietgebuehr(0),new Geldbetrag(0));
+    }
+    
+    @Test
+    public final void testDreiMiettage()
+    {
+    	assertEquals(_dvd1.berechneMietgebuehr(3),new Geldbetrag(900));
+    }
 
 }

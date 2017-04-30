@@ -93,6 +93,8 @@ public abstract class AbstractMedium implements Medium
         _titel = titel;
     }
     
-
+    public Geldbetrag berechneMietgebuehr(int mietTage){
+    	return new Geldbetrag(mietTage*300);
+    }
 
 }

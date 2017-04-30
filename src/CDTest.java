@@ -89,5 +89,17 @@ public class CDTest
     {
         return new CD(TITEL, KOMMENTAR, INTERPRET, LAENGE);
     }
+    
+    @Test
+    public final void testKeineMiettage()
+    {
+    	assertEquals(_cd1.berechneMietgebuehr(0),new Geldbetrag(0));
+    }
+    
+    @Test
+    public final void testDreiMiettage()
+    {
+    	assertEquals(_cd1.berechneMietgebuehr(3),new Geldbetrag(900));
+    }
 
 }

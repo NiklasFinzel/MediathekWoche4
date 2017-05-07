@@ -1,0 +1,60 @@
+DVD:
+    Titel: Hellboy
+    Kommentar: Red - der dämonische Held aus der Unterwelt
+    Regisseur: Guillermo Del Toro
+    Laufzeit: 110
+am 7.5.2017 verliehen an
+    Kundennummer: 123457
+    Name: Kai Konrad
+    Telefon: unbekannt
+    Anschrift:
+    Kannenweg 23
+    21868 Stade
+DVD:
+    Titel: James Bond - Ein Quantum Trost
+    Kommentar: Ein Quantum Trost setzt da an, wo Casino Royale endet
+    Regisseur: Marc Forster
+    Laufzeit: 110
+am 7.5.2017 verliehen an
+    Kundennummer: 123457
+    Name: Kai Konrad
+    Telefon: unbekannt
+    Anschrift:
+    Kannenweg 23
+    21868 Stade
+Videospiel:
+    Titel: Dr. Kawashimas Gehirn Jogging
+    Kommentar:  Wie fit ist ihr Gehirn?
+    System: Nintendo DS
+am 2.4.2017 verliehen an
+    Kundennummer: 123457
+    Name: Kai Konrad
+    Telefon: unbekannt
+    Anschrift:
+    Kannenweg 23
+    21868 Stade
+und Rücknahme am:7.5.2017
+DVD:
+    Titel: Hellboy
+    Kommentar: Red - der dämonische Held aus der Unterwelt
+    Regisseur: Guillermo Del Toro
+    Laufzeit: 110
+am 7.5.2017 verliehen an
+    Kundennummer: 123463
+    Name: Chuck Norris
+    Telefon: unbekannt
+    Anschrift:
+    Supermannweg 100
+    80331 München
+CD:
+    Titel: Wincing the Night Away
+    Kommentar: Die fleißigsten Slacker der Indie-Szene 
+    Interpret: the Shins
+    Spiellänge: 69
+am 7.5.2017 verliehen an
+    Kundennummer: 123463
+    Name: Chuck Norris
+    Telefon: unbekannt
+    Anschrift:
+    Supermannweg 100
+    80331 München
